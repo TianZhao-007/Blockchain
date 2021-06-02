@@ -46,3 +46,8 @@ Point_image_coordinate = M * Point_World_coordinate;
 end
 ```
 
+### Epipolar Geometry(对极几何)  
+[非常棒的解释+代码](https://blog.csdn.net/liubing8609/article/details/110234276?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162263890916780366529958%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=162263890916780366529958&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-110234276.pc_search_result_control_group&utm_term=epipole&spm=1018.2226.3001.4187)  
+[进一步学习epipolar geometry](https://classroom.udacity.com/courses/ud810/lessons/2947778633/concepts/29434086230923)
+
+
