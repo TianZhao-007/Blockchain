@@ -4,6 +4,8 @@
 [UIUC - computer vision](http://slazebni.cs.illinois.edu/spring19/)  
 [Udacity - computer vision](https://classroom.udacity.com/courses/ud810/lessons)  
 
+## SIFT  
+[Quick initial acknowledgement](https://www.youtube.com/watch?v=4AvTMVD9ig0)  
 
 ## Camera calibration  
 [Click here to review camera calibration](http://slazebni.cs.illinois.edu/spring19/lec14_calibration.pdf)  
