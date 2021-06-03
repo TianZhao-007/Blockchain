@@ -6,6 +6,7 @@
 
 
 ## Camera calibration  
+[Click here to review camera calibration](http://slazebni.cs.illinois.edu/spring19/lec14_calibration.pdf)  
 主要找到相机的**内参外参**
 ### 外参extrinsic parameters  
 - Rotation(R): Align坐标系 A 和 B  
