@@ -1,8 +1,9 @@
 # Computer vision  
 
 ## Quick link to computer vision courses
-[UIUC - computer vision](http://slazebni.cs.illinois.edu/spring19/)  
-[Udacity - computer vision](https://classroom.udacity.com/courses/ud810/lessons)  
+[UIUC - computer vision-PPT！！](http://slazebni.cs.illinois.edu/spring19/)  
+[Udacity - computer vision基础！！！](https://classroom.udacity.com/courses/ud810/lessons)  
+[Columbia university - computer vision(推荐！！)](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw)  
 
 ### SIFT  
 [Quick initial acknowledgement](https://www.youtube.com/watch?v=4AvTMVD9ig0)  
