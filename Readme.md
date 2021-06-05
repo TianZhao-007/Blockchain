@@ -58,6 +58,45 @@ end
 [非常棒的解释+代码](https://blog.csdn.net/liubing8609/article/details/110234276?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162263890916780366529958%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=162263890916780366529958&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-110234276.pc_search_result_control_group&utm_term=epipole&spm=1018.2226.3001.4187)  
 [进一步学习epipolar geometry](https://classroom.udacity.com/courses/ud810/lessons/2947778633/concepts/29434086230923)
 
+## Image segmentation  
+Group pixels with similar visual characteristics.  
+[Here is the introducation vedio link](https://www.youtube.com/watch?v=4pYyD2uSeko&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt&index=1)  
+
+### Segmentation by humans  
+**Segmentation is highly subjective for humans.**
+[Here is the vedio link](https://www.youtube.com/watch?v=4pYyD2uSeko&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt&index=2)  
+Closer objects are grouped together.  
+Similar objects are grouped together.  
+Objects with similar motion or change are grouped together.  
+Connected objects are grouped together.  
+Features on a continuous curve are grouped together.  
+Parallel and symmetrical features are grouped together.  
+Illusory(幻影的) or subjective contours(轮廓/等高线) are perceived.  
+
+### Segmentation as cluster  
+[Here is the vedio link](https://www.youtube.com/watch?v=4pYyD2uSeko&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt&index=3)  
+Cluster similar pixels.
+Pixels as feature vector:{R,G,B,x,y,depth...}  
+Construct feature space: The distance is smaller, the more similarity it is.  
+
+### K-means segmentation  
+[Here is the vedio link](https://www.youtube.com/watch?v=4pYyD2uSeko&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt&index=4)  
+Goal: Segement the given pixel feature distribution into K clusters.  
+Steps:  
+- Randomly generate the inital means of the K cluters.  
+- Create K clusters by assigning each feature point to the nearest mean.  
+- Recompute the means of each cluster.  
+- Repeat steps 2 and 3 until convergence.  
+
+### Mean-shift segmentation
+[Here is the vedio link](https://www.youtube.com/watch?v=4pYyD2uSeko&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt&index=5)  
+
+### Graph-based segmentation  
+[Here is the vedio link](https://www.youtube.com/watch?v=4pYyD2uSeko&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt&index=6)  
+
+
 ## Deep learning  
+[MIT-Introduction to Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)  
+[Bilibili- Basic concepts and coding for deep learning](https://space.bilibili.com/18161609/video?tid=0&page=2&keyword=&order=pubdate)  
 
 ### 
