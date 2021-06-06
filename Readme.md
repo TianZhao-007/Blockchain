@@ -99,4 +99,7 @@ Steps:
 [MIT-Introduction to Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)  
 [Bilibili- Basic concepts and coding for deep learning](https://space.bilibili.com/18161609/video?tid=0&page=2&keyword=&order=pubdate)  
 
-### 
+### VGG  
+[Basic concepts for VGG](https://www.bilibili.com/video/BV1q7411T7Y6)  
+
+
