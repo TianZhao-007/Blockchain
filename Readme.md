@@ -45,6 +45,7 @@ Horn–Schunck optical flow algorithm
 [进一步学习epipolar geometry](https://classroom.udacity.com/courses/ud810/lessons/2947778633/concepts/29434086230923)  
 [术语-epiploar](https://classroom.udacity.com/courses/ud810/lessons/2947778633/concepts/29434086250923)   
 Fundamental Matrix (F) and Essential Matrix (E)  
+[有趣的E&F matrix歌曲](http://danielwedge.com/fmatrix/)  
 - **Essential Matrix** contains the information about translation and rotation, which describe the location of the second camera relative to the first in global coordinates.
 - **Fundamental Matrix** contains the same information as Essential Matrix in addition to the information about the intrinsics of both cameras so that we can relate the two cameras in pixel coordinates.  
 (Note: If we are using rectified images and normalize the point by dividing by the focal lengths, **F=E**).  
