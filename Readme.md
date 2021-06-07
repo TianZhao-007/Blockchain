@@ -54,6 +54,27 @@ More points are preferred and use RANSAC(deal with outliers) to get a more robus
 
 The fact that epipolar lines are parallel is what matters. Then being horizontal is a result of the particular stereo setup.  
 
+### Triangulation  
+Defination:  
+Problem: Given some points x and x’ in correspondence  
+across two or more images (taken from calibrated cameras), compute the 3D location X  
+
+### Structure from Motion(SfM)  
+[演示-SFM pipeline Video Demo](https://www.youtube.com/watch?v=i7ierVkXYa8)  
+SFM Pipeline:  
+- Track 2D feautres  
+- Estimate 3D  
+- Optimize(Bundle adjust)  
+- Fit surfaces  
+
+SFM Reconstruction Pipeline:  
+- Feature detection  
+- Feature matching(Find scene points seen by multiple cameras)  
+- Reconstruction(Robustly estimate camera poses and triangulation)  
+- Refinement: BA(Refine camera poses R, T and scene structure P)  
+
+
+
 ### Photometric stereo  
 [效果的视频演示](https://www.youtube.com/watch?v=tsLTq3MuXNI)  
 
