@@ -118,9 +118,14 @@ Steps:
 ## Deep learning  
 [MIT-Introduction to Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)  
 [Bilibili- Basic concepts and coding for deep learning](https://space.bilibili.com/18161609/video?tid=0&page=2&keyword=&order=pubdate)  
+[动手学习深度学习-pytorch版本](https://tangshusen.me/Dive-into-DL-PyTorch/#/)  
 
 ### VGG  
 [Basic concepts for VGG](https://www.bilibili.com/video/BV1q7411T7Y6)  
+[博客文章讲解VGG](https://blog.csdn.net/codeswarrior/article/details/107540780?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162303519416780357261041%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=162303519416780357261041&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-107540780.pc_search_result_control_group&utm_term=VGG%E7%BD%91%E7%BB%9C&spm=1018.2226.3001.4187)  
+- 使用更小的卷积核可以使网络层数增加，从而可以集成多个非线性激活，而不是原来的一个，这样可以使得决策函数更具有判别力。  
+比如，用两个3x3的核替代一个5x5, 用三个3x3的核替代7x7.  
+- 参数更少  
 
 
 
@@ -156,7 +161,7 @@ t = [10; 20; 0];
 extrinsic = [R, t];
 
 % K * [R | t]
-M = instrinsic * extrinsic;
+M = instrinxsic * extrinsic;
 
 % Result(From the world to image plane)
 % note: Point in world should be homogeneous
